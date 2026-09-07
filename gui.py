@@ -76,7 +76,7 @@ TRANSLATIONS: Dict[str, Dict[str, str]] = {
         "project_label": "مسار المشروع",
         "browse_btn": "📁 استعراض",
         "open_folder_btn": "📂 فتح",
-        "chat_title": "💬 المحادثة التفاعلية (Chat)",
+        "chat_title": "المحادثة",
         "new_chat_btn": "🔄 محادثة جديدة",
         "welcome_msg": "مرحباً بك! أنا مساعدك البرمجي الذكي. اكتب لي أي موقع أو برنامج تريد بناءه، وسأقوم بإنشائه ومساعدتك في تعديله وتطويره خطوة بخطوة في هذا الشات.",
         "chat_input_placeholder": "اكتب طلبك أو تعديلك هنا (مثال: ابنِ لي موقع متجر إلكتروني، أو غيّر لون الخلفية للأزرق)...",
@@ -85,14 +85,14 @@ TRANSLATIONS: Dict[str, Dict[str, str]] = {
         "shortcut_hint": "(Enter أو Ctrl+Enter للإرسال)",
         "files_toolbar_lbl": "ملفات المشروع",
         "active_file_lbl": "الملف المعروض",
-        "save_all_btn": "💾 حفظ كامل المشروع",
+        "save_all_btn": "حفظ المشروع",
         "save_active_btn": "💾 حفظ هذا الملف",
         "open_browser_btn": "🌐 فتح في المتصفح",
         "run_code_btn": "▶ تشغيل الكود",
-        "tab_code": "💻 محرر الكود",
-        "tab_diff": "🔀 الفروقات (Diff)",
-        "tab_explanation": "📝 شرح وتوثيق المشروع",
-        "tab_console": "⚡ منصة التشغيل",
+        "tab_code": "الكود",
+        "tab_diff": "الفروقات",
+        "tab_explanation": "الملاحظات",
+        "tab_console": "الطرفية",
         "diff_btn": "🔀 عرض الفروقات",
         "export_zip_btn": "📦 تصدير ZIP",
         "scan_folder_btn": "📥 فحص المجلد",
@@ -130,7 +130,7 @@ TRANSLATIONS: Dict[str, Dict[str, str]] = {
         "api_guide_title": "دليل ربط استوديو الذكاء الاصطناعي مع VS Code",
         "api_started_msg": "✓ تم تشغيل خادم VS Code API بنجاح على المنفذ {port}.",
         "api_stopped_msg": "تم إيقاف خادم VS Code API.",
-        "tab_artifacts": "🎨 المعاينة الحية (Artifacts)",
+        "tab_artifacts": "المعاينة",
         "claude_key_btn": "🔑 مفتاح Claude",
         "claude_active_badge": "🟢 Claude جاهز",
         "claude_inactive_badge": "⚪ Claude غير مفعل",
@@ -156,6 +156,14 @@ TRANSLATIONS: Dict[str, Dict[str, str]] = {
         "console_send_btn": "إرسال ↵",
         "console_stop_btn": "⏹️ إيقاف",
         "console_run_claude_btn": "🚀 تشغيل Claude CLI هنا",
+        "options_btn": "☰ الخيارات",
+        "options_title": "إعدادات الاستوديو",
+        "section_model": "النموذج والذكاء الاصطناعي",
+        "section_project": "المشروع والملفات",
+        "section_tools": "أدوات المحرّر",
+        "section_connections": "الربط مع VS Code",
+        "section_appearance": "اللغة والمظهر",
+        "close_options": "إغلاق",
     },
     "en": {
         "app_title": "AI Coding Studio (Ollama Chat & Code Studio)",
@@ -170,7 +178,7 @@ TRANSLATIONS: Dict[str, Dict[str, str]] = {
         "project_label": "Project Path",
         "browse_btn": "📁 Browse",
         "open_folder_btn": "📂 Open",
-        "chat_title": "💬 Interactive Chat",
+        "chat_title": "Chat",
         "new_chat_btn": "🔄 New Chat",
         "welcome_msg": "Hello! I am your local AI coding assistant. Tell me what website or application you want to build, and we can develop, modify, and iterate on it step by step right here.",
         "chat_input_placeholder": "Type your message or requested edit here (e.g., Build a personal portfolio site, or change the hero title)...",
@@ -179,14 +187,14 @@ TRANSLATIONS: Dict[str, Dict[str, str]] = {
         "shortcut_hint": "(Enter or Ctrl+Enter to send)",
         "files_toolbar_lbl": "Project Files",
         "active_file_lbl": "Active File",
-        "save_all_btn": "💾 Save All Project Files",
+        "save_all_btn": "Save project",
         "save_active_btn": "💾 Save Active File",
         "open_browser_btn": "🌐 Open in Browser",
         "run_code_btn": "▶ Run Code",
-        "tab_code": "💻 Code Editor",
-        "tab_diff": "🔀 Diff View",
-        "tab_explanation": "📝 Architecture & Notes",
-        "tab_console": "⚡ Execution Console",
+        "tab_code": "Code",
+        "tab_diff": "Diff",
+        "tab_explanation": "Notes",
+        "tab_console": "Console",
         "diff_btn": "🔀 View Diff",
         "export_zip_btn": "📦 Export ZIP",
         "scan_folder_btn": "📥 Scan Folder",
@@ -224,7 +232,7 @@ TRANSLATIONS: Dict[str, Dict[str, str]] = {
         "api_guide_title": "VS Code Connection Guide (Continue & Cline)",
         "api_started_msg": "✓ VS Code API Server started on port {port}.",
         "api_stopped_msg": "VS Code API Server stopped.",
-        "tab_artifacts": "🎨 Live Artifacts",
+        "tab_artifacts": "Preview",
         "claude_key_btn": "🔑 Claude Key",
         "claude_active_badge": "🟢 Claude Ready",
         "claude_inactive_badge": "⚪ Claude Offline",
@@ -250,6 +258,14 @@ TRANSLATIONS: Dict[str, Dict[str, str]] = {
         "console_send_btn": "Send ↵",
         "console_stop_btn": "⏹️ Stop",
         "console_run_claude_btn": "🚀 Run Claude CLI Here",
+        "options_btn": "☰ Options",
+        "options_title": "Studio settings",
+        "section_model": "Model & AI",
+        "section_project": "Project & files",
+        "section_tools": "Editor tools",
+        "section_connections": "VS Code connection",
+        "section_appearance": "Language & appearance",
+        "close_options": "Close",
     }
 }
 
@@ -286,12 +302,14 @@ class CodingAgentApp:
         self.agent = OllamaAgent()
         self.models: List[str] = []
         self.current_model = ctk.StringVar(value="")
+        self.web_search_mode = "auto"
         self.project_dir = ctk.StringVar(
             value=str(Path(os.getcwd()) / "workspace")
         )
         self.status_message = ctk.StringVar(value=self.t["ready_status"])
         self.connection_status = ctk.StringVar(value=self.t["checking_ollama"])
         self.is_generating = False
+        self.options_visible = False
         self.cancel_requested = False
 
         # Multi-file project buffer
@@ -336,6 +354,8 @@ class CodingAgentApp:
 
         # Keyboard shortcuts & Clean exit handler
         self.root.bind("<Control-Return>", lambda event: self.send_chat_message())
+        self.root.bind("<Escape>", lambda event: self._toggle_options_panel(False))
+        self.root.bind("<ButtonPress>", self._on_options_outside_click, add="+")
         self.root.protocol("WM_DELETE_WINDOW", self._on_window_close)
 
         # Asynchronous model discovery
@@ -365,6 +385,7 @@ class CodingAgentApp:
 
     def _build_studio_layout(self):
         self._create_header()
+        self._create_options_panel()
 
         # Split container
         self.split_frame = ctk.CTkFrame(self.main_container, fg_color="transparent")
@@ -380,148 +401,150 @@ class CodingAgentApp:
             self._create_chat_panel(self.split_frame, side="left")
             self._create_workspace_panel(self.split_frame, side="right")
 
+        if self.options_visible:
+            self._toggle_options_panel(True)
+        self._toggle_theme()
+
     def _create_header(self):
-        header_frame = ctk.CTkFrame(self.main_container, fg_color="transparent")
-        header_frame.pack(fill="x", padx=15, pady=(8, 4))
-
-        # Title Block
-        title_box = ctk.CTkFrame(header_frame, fg_color="transparent")
-        title_box.pack(side=self.side_start)
-
+        header = ctk.CTkFrame(self.main_container, fg_color="transparent")
+        header.pack(fill="x", padx=20, pady=(16, 12))
+        self.options_btn = ctk.CTkButton(
+            header, text=self.tr("options_btn"), width=110, height=36,
+            corner_radius=10, command=self._toggle_options_panel)
+        self.options_btn.pack(side=self.side_start, padx=8)
+        title_box = ctk.CTkFrame(header, fg_color="transparent")
+        title_box.pack(side=self.side_start, padx=8)
         self.title_label = ctk.CTkLabel(
-            title_box,
-            text=self.tr("header_title"),
-            font=ctk.CTkFont(family="Segoe UI", size=18, weight="bold")
-        )
-        self.title_label.pack(side=self.side_start)
-
+            title_box, text=self.tr("header_title"), anchor=self.text_anchor,
+            font=ctk.CTkFont(family="Segoe UI", size=18, weight="bold"))
+        self.title_label.pack(fill="x")
         self.subtitle_label = ctk.CTkLabel(
-            title_box,
-            text=self.tr("header_subtitle"),
-            font=ctk.CTkFont(family="Segoe UI", size=12, slant="italic"),
-            text_color="gray60"
-        )
-        self.subtitle_label.pack(side=self.side_start, padx=5)
-
-        # Controls Block
-        controls_box = ctk.CTkFrame(header_frame, fg_color="transparent")
-        controls_box.pack(side=self.side_end)
-
-        self.theme_switch = ctk.CTkSwitch(
-            controls_box,
-            text=self.tr("dark_mode"),
-            command=self._toggle_theme,
-            font=ctk.CTkFont(family="Segoe UI", size=11)
-        )
-        self.theme_switch.select()
-        self.theme_switch.pack(side=self.side_end, padx=(0, 15) if self.is_rtl else (15, 0))
-
+            title_box, text="Ollama Chat & Code Studio", anchor=self.text_anchor,
+            text_color=("gray40", "gray65"), font=ctk.CTkFont(size=11))
+        self.subtitle_label.pack(fill="x")
         self.status_badge = ctk.CTkLabel(
-            controls_box,
-            textvariable=self.connection_status,
-            font=ctk.CTkFont(family="Segoe UI", size=11, weight="bold"),
-            text_color="#FFA500",
-            corner_radius=8,
-            fg_color=("gray85", "#2a2d32"),
-            padx=8,
-            pady=3
-        )
-        self.status_badge.pack(side=self.side_end, padx=(0, 12) if self.is_rtl else (12, 0))
+            header, textvariable=self.connection_status, corner_radius=10,
+            fg_color=("gray90", "#222530"), text_color="#d99421", padx=12)
+        self.status_badge.pack(side=self.side_end, padx=8)
 
+    def _option_section(self, key):
+        card = ctk.CTkFrame(self.options_scroll, corner_radius=10,
+                            fg_color=("#ffffff", "#222530"))
+        card.pack(fill="x", pady=(0, 10))
+        ctk.CTkLabel(
+            card, text=self.tr(key), anchor=self.text_anchor,
+            font=ctk.CTkFont(family="Segoe UI", size=13, weight="bold")
+        ).pack(fill="x", padx=14, pady=(10, 4))
+        body = ctk.CTkFrame(card, fg_color="transparent")
+        body.pack(fill="x", padx=12, pady=(0, 12))
+        return body
+
+    def _option_button(self, parent, key, command):
+        button = ctk.CTkButton(
+            parent, text=self.tr(key), command=command, height=34,
+            anchor=self.text_anchor, corner_radius=8,
+            fg_color=("#e8edf5", "#303646"),
+            text_color=("#202b40", "#e2e8f0"),
+            hover_color=("#d8e2f0", "#3d4760"),
+            font=ctk.CTkFont(family="Segoe UI", size=12))
+        button.pack(fill="x", pady=3)
+        return button
+
+    def _create_options_panel(self):
+        # Overlay keeps the workspace width unchanged when opening settings.
+        self.options_panel = ctk.CTkFrame(
+            self.main_container, width=340, corner_radius=14, border_width=1,
+            border_color=("#cbd5e1", "#394155"),
+            fg_color=("#f1f5f9", "#191d27"))
+        self.options_panel.pack_propagate(False)
+        top = ctk.CTkFrame(self.options_panel, fg_color="transparent")
+        top.pack(fill="x", padx=16, pady=(14, 10))
+        ctk.CTkLabel(top, text=self.tr("options_title"),
+                     font=ctk.CTkFont(size=17, weight="bold")).pack(side=self.side_start)
+        self.close_options_btn = ctk.CTkButton(
+            top, text=self.tr("close_options"), width=65, height=30,
+            command=lambda: self._toggle_options_panel(False))
+        self.close_options_btn.pack(side=self.side_end)
+        self.options_scroll = ctk.CTkScrollableFrame(
+            self.options_panel, fg_color="transparent")
+        self.options_scroll.pack(fill="both", expand=True, padx=8, pady=(0, 10))
+
+        model = self._option_section("section_model")
+        self.model_lbl = ctk.CTkLabel(model, text=self.tr("model_label"), anchor=self.text_anchor)
+        self.model_lbl.pack(fill="x")
+        self.model_dropdown = ctk.CTkComboBox(
+            model, variable=self.current_model, values=self.models or ["Searching..."],
+            state="readonly", height=34)
+        self.model_dropdown.pack(fill="x", pady=(0, 6))
+        self.refresh_btn = self._option_button(
+            model, "refresh_btn", lambda: threading.Thread(target=self.refresh_models, daemon=True).start())
+        self.claude_launch_btn = self._option_button(model, "launch_claude_code_btn", self.activate_claude_mode)
+        self.claude_setup_btn = self._option_button(model, "claude_key_btn", self.show_claude_settings_dialog)
+        self.claude_badge = ctk.CTkLabel(model, textvariable=self.claude_status_text,
+                                        text_color="#10b981" if self.claude_key else "#94a3b8")
+        self.claude_badge.pack(fill="x")
+
+        project = self._option_section("section_project")
+        ctk.CTkLabel(project, text=self.tr("project_label"), anchor=self.text_anchor).pack(fill="x")
+        self.dir_entry = ctk.CTkEntry(project, textvariable=self.project_dir, height=34)
+        self.dir_entry.pack(fill="x", pady=(0, 6))
+        self.browse_btn = self._option_button(project, "browse_btn", self._browse_directory)
+        self.open_folder_btn = self._option_button(project, "open_folder_btn", self._open_project_folder)
+        self.scan_folder_btn = self._option_button(project, "scan_folder_btn", self.scan_and_load_folder)
+        self.export_zip_btn = self._option_button(project, "export_zip_btn", self.export_project_as_zip)
+        self.open_browser_btn = self._option_button(project, "open_browser_btn", self.open_in_browser)
+
+        editor = self._option_section("section_tools")
+        self.copy_btn = self._option_button(editor, "copy_code_btn", self._copy_code_to_clipboard)
+        self.diff_toggle_btn = self._option_button(editor, "diff_btn", self.toggle_diff_view)
+        self.artifact_toggle_btn = self._option_button(editor, "tab_artifacts", self.open_artifact_tab)
+        self.rehighlight_btn = self._option_button(editor, "rehighlight_btn", self._apply_syntax_highlighting)
+
+        connection = self._option_section("section_connections")
+        self.api_badge = ctk.CTkLabel(connection, textvariable=self.api_status_text, text_color="#94a3b8")
+        self.api_badge.pack(fill="x")
+        self.api_toggle_btn = self._option_button(connection, "api_server_btn", self.toggle_api_server)
+        self.api_copy_btn = self._option_button(connection, "api_copy_url", self.copy_api_url)
+        self.api_guide_btn = self._option_button(connection, "api_guide_btn", self.show_vscode_guide)
+        if self.api_server and self.api_server.is_running():
+            self.api_badge.configure(text_color="#10b981")
+            self.api_toggle_btn.configure(fg_color="#059669", text="✓ " + self.tr("api_server_btn"))
+
+        appearance = self._option_section("section_appearance")
         self.lang_selector = ctk.CTkSegmentedButton(
-            controls_box,
-            values=["العربية", "English"],
-            command=self._on_language_change,
-            font=ctk.CTkFont(family="Segoe UI", size=11)
-        )
-        self.lang_selector.set("العربية" if self.lang == "ar" else "English")
-        self.lang_selector.pack(side=self.side_end)
+            appearance, values=["العربية", "English"], command=self._on_language_change)
+        self.lang_selector.set("العربية" if self.is_rtl else "English")
+        self.lang_selector.pack(fill="x", pady=(4, 12))
+        self.theme_switch = ctk.CTkSwitch(appearance, text=self.tr("dark_mode"), command=self._toggle_theme)
+        if ctk.get_appearance_mode() == "Dark":
+            self.theme_switch.select()
+        self.theme_switch.pack(anchor=self.text_anchor, pady=4)
 
-        # VS Code API Server Quick Bar
-        api_box = ctk.CTkFrame(controls_box, fg_color=("gray85", "#222530"), corner_radius=8)
-        api_box.pack(side=self.side_end, padx=(0, 12) if self.is_rtl else (12, 0))
+    def _on_options_outside_click(self, event):
+        if not self.options_visible:
+            return
 
-        self.api_toggle_btn = ctk.CTkButton(
-            api_box,
-            text=self.tr("api_server_btn"),
-            font=ctk.CTkFont(family="Segoe UI", size=11, weight="bold"),
-            width=120,
-            height=26,
-            fg_color="#3b82f6",
-            hover_color="#2563eb",
-            command=self.toggle_api_server
-        )
-        self.api_toggle_btn.pack(side=self.side_start, padx=2, pady=2)
+        widget = event.widget
+        while widget is not None:
+            # Include child widgets and the toggle button in the menu area.
+            if widget in (self.options_panel, self.options_btn):
+                return
+            widget = getattr(widget, "master", None)
 
-        self.api_badge = ctk.CTkLabel(
-            api_box,
-            textvariable=self.api_status_text,
-            font=ctk.CTkFont(family="Segoe UI", size=10, weight="bold"),
-            text_color="#94a3b8",
-            padx=4
-        )
-        self.api_badge.pack(side=self.side_start, padx=2)
+        self._toggle_options_panel(False, restore_focus=False)
 
-        self.api_copy_btn = ctk.CTkButton(
-            api_box,
-            text="📋",
-            width=28,
-            height=24,
-            font=ctk.CTkFont(size=11),
-            fg_color="gray30",
-            hover_color="gray40",
-            command=self.copy_api_url
-        )
-        self.api_copy_btn.pack(side=self.side_start, padx=2, pady=2)
-
-        self.api_guide_btn = ctk.CTkButton(
-            api_box,
-            text="ℹ️",
-            width=28,
-            height=24,
-            font=ctk.CTkFont(size=11),
-            fg_color="gray30",
-            hover_color="gray40",
-            command=self.show_vscode_guide
-        )
-        self.api_guide_btn.pack(side=self.side_start, padx=(0, 2) if not self.is_rtl else (2, 0), pady=2)
-
-        # Claude Anthropic Setup Chip
-        claude_box = ctk.CTkFrame(controls_box, fg_color=("gray85", "#222530"), corner_radius=8)
-        claude_box.pack(side=self.side_end, padx=(0, 10) if self.is_rtl else (10, 0))
-
-        self.claude_launch_btn = ctk.CTkButton(
-            claude_box,
-            text=self.tr("launch_claude_code_btn"),
-            font=ctk.CTkFont(family="Segoe UI", size=11, weight="bold"),
-            width=135,
-            height=26,
-            fg_color="#ea580c",
-            hover_color="#c2410c",
-            command=self.activate_claude_mode
-        )
-        self.claude_launch_btn.pack(side=self.side_start, padx=2, pady=2)
-
-        self.claude_setup_btn = ctk.CTkButton(
-            claude_box,
-            text=self.tr("claude_key_btn"),
-            font=ctk.CTkFont(family="Segoe UI", size=11, weight="bold"),
-            width=115,
-            height=26,
-            fg_color="#7c3aed" if self.claude_key else "gray30",
-            hover_color="#6d28d9",
-            command=self.show_claude_settings_dialog
-        )
-        self.claude_setup_btn.pack(side=self.side_start, padx=2, pady=2)
-
-        self.claude_badge = ctk.CTkLabel(
-            claude_box,
-            textvariable=self.claude_status_text,
-            font=ctk.CTkFont(family="Segoe UI", size=10, weight="bold"),
-            text_color="#10b981" if self.claude_key else "#94a3b8",
-            padx=4
-        )
-        self.claude_badge.pack(side=self.side_start, padx=(2, 6) if not self.is_rtl else (6, 2))
+    def _toggle_options_panel(self, visible=None, *, restore_focus=True):
+        self.options_visible = not self.options_visible if visible is None else visible
+        if self.options_visible:
+            self.options_panel.place(
+                relx=1.0 if self.is_rtl else 0.0, x=-16 if self.is_rtl else 16,
+                rely=0.11, relheight=0.87, anchor="ne" if self.is_rtl else "nw")
+            self.options_panel.lift()
+            self.close_options_btn.focus_set()
+        else:
+            self.options_panel.place_forget()
+            if restore_focus:
+                self.options_btn.focus_set()
 
     # -------------------------------------------------------------------------
     # Panel 1: Interactive Chat Stream
@@ -595,6 +618,21 @@ class CodingAgentApp:
         # Chat Input Area
         input_container = ctk.CTkFrame(self.chat_frame, fg_color=("gray90", "#21242d"), corner_radius=10)
         input_container.pack(fill="x", padx=10, pady=(0, 10))
+
+        search_bar = ctk.CTkFrame(input_container, fg_color="transparent")
+        search_bar.pack(fill="x", padx=8, pady=(6, 0))
+        ctk.CTkLabel(search_bar, text="بحث الإنترنت" if self.is_rtl else "Web search",
+                     font=ctk.CTkFont(family="Segoe UI", size=11)).pack(side=self.side_start)
+        search_labels = ["تلقائي", "مفعّل", "متوقف"] if self.is_rtl else ["Auto", "On", "Off"]
+        search_modes = ["auto", "on", "off"]
+        self.web_search_dropdown = ctk.CTkOptionMenu(
+            search_bar, values=search_labels, width=95, height=24,
+            command=lambda label: setattr(self, "web_search_mode", search_modes[search_labels.index(label)])
+        )
+        self.web_search_dropdown.set(search_labels[search_modes.index(self.web_search_mode)])
+        self.web_search_dropdown.pack(side=self.side_start, padx=6)
+        ctk.CTkLabel(search_bar, text="/search موضوع" if self.is_rtl else "/search topic",
+                     font=ctk.CTkFont(size=11), text_color="gray60").pack(side=self.side_end)
 
         self.chat_textbox = ctk.CTkTextbox(
             input_container,
@@ -746,79 +784,6 @@ class CodingAgentApp:
         self.workspace_frame = ctk.CTkFrame(parent, corner_radius=12)
         self.workspace_frame.pack(side=side, fill="both", expand=True, padx=5, pady=0)
 
-        # 1. Top Config Bar (Model & Project Path)
-        config_card = ctk.CTkFrame(self.workspace_frame, fg_color=("gray90", "#1e212b"), corner_radius=10)
-        config_card.pack(fill="x", padx=10, pady=(10, 6))
-
-        cfg_row = ctk.CTkFrame(config_card, fg_color="transparent")
-        cfg_row.pack(fill="x", padx=10, pady=8)
-
-        self.model_lbl = ctk.CTkLabel(
-            cfg_row,
-            text=self.tr("model_label"),
-            font=ctk.CTkFont(family="Segoe UI", size=11, weight="bold"),
-            anchor=self.text_anchor
-        )
-        self.model_lbl.pack(side=self.side_start, padx=(0, 4) if not self.is_rtl else (4, 0))
-
-        self.model_dropdown = ctk.CTkComboBox(
-            cfg_row,
-            variable=self.current_model,
-            values=["Searching..."],
-            width=200,
-            state="readonly",
-            font=ctk.CTkFont(family="Segoe UI", size=11)
-        )
-        self.model_dropdown.pack(side=self.side_start, padx=(0, 6) if not self.is_rtl else (6, 0))
-
-        self.refresh_btn = ctk.CTkButton(
-            cfg_row,
-            text=self.tr("refresh_btn"),
-            width=70,
-            font=ctk.CTkFont(family="Segoe UI", size=11),
-            command=lambda: threading.Thread(target=self.refresh_models, daemon=True).start()
-        )
-        self.refresh_btn.pack(side=self.side_start, padx=(0, 10) if not self.is_rtl else (10, 0))
-
-        # Project Path & Folder Buttons at side_end
-        self.open_folder_btn = ctk.CTkButton(
-            cfg_row,
-            text=self.tr("open_folder_btn"),
-            width=65,
-            font=ctk.CTkFont(family="Segoe UI", size=11),
-            fg_color="gray30",
-            hover_color="gray40",
-            command=self._open_project_folder
-        )
-        self.open_folder_btn.pack(side=self.side_end, padx=(3, 0) if self.is_rtl else (0, 3))
-
-        self.browse_btn = ctk.CTkButton(
-            cfg_row,
-            text=self.tr("browse_btn"),
-            width=75,
-            font=ctk.CTkFont(family="Segoe UI", size=11),
-            command=self._browse_directory
-        )
-        self.browse_btn.pack(side=self.side_end, padx=(4, 3) if self.is_rtl else (3, 4))
-
-        self.scan_folder_btn = ctk.CTkButton(
-            cfg_row,
-            text=self.tr("scan_folder_btn"),
-            width=100,
-            font=ctk.CTkFont(family="Segoe UI", size=11),
-            fg_color="#0284c7",
-            hover_color="#0369a1",
-            command=self.scan_and_load_folder
-        )
-        self.scan_folder_btn.pack(side=self.side_end, padx=(6, 4) if self.is_rtl else (4, 6))
-
-        self.dir_entry = ctk.CTkEntry(
-            cfg_row,
-            textvariable=self.project_dir,
-            font=ctk.CTkFont(family="Segoe UI", size=11)
-        )
-        self.dir_entry.pack(side=self.side_start, fill="x", expand=True, padx=4)
-
         # 2. Project File Explorer Toolbar (File Chips)
         files_bar = ctk.CTkFrame(self.workspace_frame, fg_color="transparent")
         files_bar.pack(fill="x", padx=10, pady=(2, 4))
@@ -827,53 +792,6 @@ class CodingAgentApp:
         self.files_bar_scroll.pack(side=self.side_start, fill="x", expand=True)
 
         self._render_file_tabs()
-
-        # Tools on side_end
-        self.copy_btn = ctk.CTkButton(
-            files_bar,
-            text=self.tr("copy_code_btn"),
-            width=90,
-            height=26,
-            font=ctk.CTkFont(family="Segoe UI", size=11),
-            command=self._copy_code_to_clipboard
-        )
-        self.copy_btn.pack(side=self.side_end, padx=(4, 0) if self.is_rtl else (0, 4))
-
-        self.diff_toggle_btn = ctk.CTkButton(
-            files_bar,
-            text=self.tr("diff_btn"),
-            width=105,
-            height=26,
-            font=ctk.CTkFont(family="Segoe UI", size=11),
-            fg_color="#7c3aed",
-            hover_color="#6d28d9",
-            command=self.toggle_diff_view
-        )
-        self.diff_toggle_btn.pack(side=self.side_end, padx=(4, 4))
-
-        self.artifact_toggle_btn = ctk.CTkButton(
-            files_bar,
-            text="🎨 " + ("المعاينة الحية" if self.is_rtl else "Artifact Preview"),
-            width=110,
-            height=26,
-            font=ctk.CTkFont(family="Segoe UI", size=11, weight="bold"),
-            fg_color="#059669",
-            hover_color="#047857",
-            command=lambda: self.open_artifact_tab()
-        )
-        self.artifact_toggle_btn.pack(side=self.side_end, padx=(4, 4))
-
-        self.rehighlight_btn = ctk.CTkButton(
-            files_bar,
-            text=self.tr("rehighlight_btn"),
-            width=90,
-            height=26,
-            font=ctk.CTkFont(family="Segoe UI", size=11),
-            fg_color="gray30",
-            hover_color="gray40",
-            command=self._apply_syntax_highlighting
-        )
-        self.rehighlight_btn.pack(side=self.side_end, padx=(6, 4) if self.is_rtl else (4, 6))
 
         # 3. Code Editor Tabs & Output
         self.tabview = ctk.CTkTabview(self.workspace_frame)
@@ -957,8 +875,10 @@ class CodingAgentApp:
         self.art_browser_btn.pack(side=self.side_start, padx=(0, 10) if not self.is_rtl else (10, 0))
 
         # Viewport toggles (Desktop vs Mobile)
+        viewport_tools = ctk.CTkFrame(self.tab_artifacts, fg_color="transparent")
+        viewport_tools.pack(fill="x", pady=(0, 8))
         self.art_desktop_btn = ctk.CTkButton(
-            art_tools,
+            viewport_tools,
             text=self.tr("artifact_desktop_btn"),
             width=90,
             height=26,
@@ -969,7 +889,7 @@ class CodingAgentApp:
         self.art_desktop_btn.pack(side=self.side_end, padx=(3, 0) if self.is_rtl else (0, 3))
 
         self.art_mobile_btn = ctk.CTkButton(
-            art_tools,
+            viewport_tools,
             text=self.tr("artifact_mobile_btn"),
             width=105,
             height=26,
@@ -1122,7 +1042,7 @@ class CodingAgentApp:
 
         # 4. Bottom Approval Bar
         bottom_card = ctk.CTkFrame(self.workspace_frame, corner_radius=10)
-        bottom_card.pack(fill="x", padx=10, pady=(0, 10))
+        bottom_card.pack(side="bottom", fill="x", before=self.tabview, padx=10, pady=(0, 10))
 
         b_inner = ctk.CTkFrame(bottom_card, fg_color="transparent")
         b_inner.pack(fill="x", padx=10, pady=8)
@@ -1138,17 +1058,6 @@ class CodingAgentApp:
         )
         self.save_all_btn.pack(side=self.side_start, padx=(0, 8) if not self.is_rtl else (8, 0))
 
-        self.open_browser_btn = ctk.CTkButton(
-            b_inner,
-            text=self.tr("open_browser_btn"),
-            font=ctk.CTkFont(family="Segoe UI", size=12, weight="bold"),
-            height=34,
-            fg_color="#0284c7",
-            hover_color="#0369a1",
-            command=self.open_in_browser
-        )
-        self.open_browser_btn.pack(side=self.side_start, padx=(0, 8) if not self.is_rtl else (8, 0))
-
         self.run_btn = ctk.CTkButton(
             b_inner,
             text=self.tr("run_code_btn"),
@@ -1160,26 +1069,14 @@ class CodingAgentApp:
         )
         self.run_btn.pack(side=self.side_start, padx=(0, 8) if not self.is_rtl else (8, 0))
 
-        # ZIP Export Button
-        self.export_zip_btn = ctk.CTkButton(
-            b_inner,
-            text=self.tr("export_zip_btn"),
-            font=ctk.CTkFont(family="Segoe UI", size=12, weight="bold"),
-            height=34,
-            fg_color="#8b5cf6",
-            hover_color="#7c3aed",
-            command=self.export_project_as_zip
-        )
-        self.export_zip_btn.pack(side=self.side_start, padx=(0, 10) if not self.is_rtl else (10, 0))
-
         self.status_lbl = ctk.CTkLabel(
-            b_inner,
+            bottom_card,
             textvariable=self.status_message,
             font=ctk.CTkFont(family="Segoe UI", size=11),
-            text_color="gray80",
-            anchor=self.text_anchor
+            text_color=("gray40", "gray65"),
+            anchor=self.text_anchor, wraplength=500
         )
-        self.status_lbl.pack(side=self.side_start, fill="x", expand=True)
+        self.status_lbl.pack(fill="x", padx=12, pady=(0, 8))
 
     def _render_file_tabs(self):
         """Render file tabs horizontally in the workspace header."""
@@ -1268,7 +1165,7 @@ class CodingAgentApp:
         # Run multi-turn chat in background thread
         thread = threading.Thread(
             target=self._chat_worker,
-            args=(user_text, model),
+            args=(user_text, model, self.web_search_mode),
             daemon=True
         )
         thread.start()
@@ -1279,7 +1176,7 @@ class CodingAgentApp:
             self.status_message.set("جاري إلغاء الطلب..." if self.lang == "ar" else "Cancelling request...")
             self.cancel_btn.configure(state="disabled")
 
-    def _chat_worker(self, user_text: str, model: str):
+    def _chat_worker(self, user_text: str, model: str, web_search_mode: str = "auto"):
         start_time = time.time()
         try:
             # Snapshot existing file versions before this turn for diff comparison
@@ -1296,11 +1193,22 @@ class CodingAgentApp:
                     byte_len = len(full_so_far)
                     self.root.after(0, lambda ext=extracted, bl=byte_len: self._update_streaming_bubble(ext, bl))
 
+            def _status_callback(status):
+                if self.cancel_requested:
+                    return
+                if status == "searching":
+                    text = "جاري البحث على الإنترنت..." if self.lang == "ar" else "Searching the web..."
+                else:
+                    text = f"جاري إعداد الرد عبر {model}..." if self.lang == "ar" else f"Generating with {model}..."
+                self.root.after(0, lambda msg=text: self.status_message.set(msg))
+
             result = self.agent.chat_turn(
                 user_message=user_text,
                 model=model,
                 current_project_files=self.project_files,
-                on_chunk=_chunk_callback
+                on_chunk=_chunk_callback,
+                web_search_mode=web_search_mode,
+                on_status=_status_callback
             )
             elapsed = round(time.time() - start_time, 2)
             if not self.cancel_requested:
@@ -1362,6 +1270,9 @@ class CodingAgentApp:
             )
 
         # Update explanation tab
+        if result.get("sources"):
+            self._render_search_sources(result["sources"])
+
         self.explanation_box.delete("1.0", tk.END)
         doc = f"## 🚀 {proj_name}\n"
         doc += f"**{model_name}** | {elapsed}s\n"
@@ -1378,6 +1289,23 @@ class CodingAgentApp:
             self.status_message.set(f"اكتمل الرد في {elapsed} ثانية! تم تحديث {len(new_files)} ملفات.")
         else:
             self.status_message.set(f"Completed in {elapsed}s! {len(new_files)} files updated.")
+
+    def _render_search_sources(self, sources):
+        from web_search import safe_source_url
+        card = ctk.CTkFrame(self.chat_scroll, corner_radius=8)
+        card.pack(fill="x", padx=8, pady=4)
+        ctk.CTkLabel(card, text="فتح مصادر البحث" if self.is_rtl else "Open search sources",
+                     anchor=self.text_anchor).pack(fill="x", padx=10, pady=4)
+        for index, source in enumerate(sources, 1):
+            url = safe_source_url(source.get("url"))
+            if not url:
+                continue
+            title = source.get("title", url)
+            button = ctk.CTkButton(
+                card, text=f"[{index}] {title[:48]}", height=26,
+                anchor="w", command=lambda target=url: webbrowser.open(target)
+            )
+            button.pack(fill="x", padx=10, pady=(0, 5))
 
     def _on_chat_error(self, err_msg: str, elapsed: float):
         self._reset_generation_state()
@@ -1944,6 +1872,8 @@ class CodingAgentApp:
         if new_lang == self.lang:
             return
 
+        # Save the editor buffer before rebuilding translated controls.
+        self._on_code_edited()
         saved_files = self.project_files
         saved_active = self.active_file_idx
 
@@ -1951,6 +1881,12 @@ class CodingAgentApp:
         self.t = TRANSLATIONS[self.lang]
         self.is_rtl = (self.lang == "ar")
         self.root.title(self.t["app_title"])
+        self.api_status_text.set(
+            self.tr("api_server_running", port=self.api_port)
+            if self.api_server and self.api_server.is_running()
+            else self.tr("api_server_stopped"))
+        self.claude_status_text.set(self.tr(
+            "claude_active_badge" if self.claude_key else "claude_inactive_badge"))
 
         # Rebuild layout
         for w in self.main_container.winfo_children():
@@ -1960,7 +1896,8 @@ class CodingAgentApp:
 
         # Restore state
         self.project_files = saved_files
-        self.active_file_idx = saved_active
+        # The freshly created editor is empty; do not save it over the buffer.
+        self.active_file_idx = -1
         self._render_file_tabs()
         self._select_file_index(saved_active)
 

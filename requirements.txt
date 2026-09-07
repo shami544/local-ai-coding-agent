@@ -1,3 +1,4 @@
 customtkinter>=6.0.0
 ollama>=0.6.0
 pygments>=2.20.0
+ddgs>=9.5.5,<10

@@ -557,6 +557,14 @@ class OpenAICompatibleHandler(BaseHTTPRequestHandler):
         prompt = body.get("prompt", "")
         model = body.get("model", "qwen2.5-coder:14b")
         existing_files = body.get("files", [])
+        web_search_mode = body.get("web_search_mode", "auto")
+
+        if web_search_mode not in ("auto", "on", "off"):
+            self.send_response(400)
+            self._send_cors_headers()
+            self.end_headers()
+            self.wfile.write(json.dumps({"error": "web_search_mode must be auto, on, or off"}).encode("utf-8"))
+            return
 
         if not prompt:
             self.send_response(400)
@@ -567,7 +575,8 @@ class OpenAICompatibleHandler(BaseHTTPRequestHandler):
 
         agent = self.agent or OllamaAgent()
         try:
-            res = agent.chat_turn(user_message=prompt, model=model, current_project_files=existing_files)
+            res = agent.chat_turn(user_message=prompt, model=model, current_project_files=existing_files,
+                                  web_search_mode=web_search_mode)
             resp_bytes = json.dumps(res, ensure_ascii=False).encode("utf-8")
             self.send_response(200)
             self._send_cors_headers()
